@@ -1,13 +1,13 @@
 # Praktik-Sistem-Games
 Tugas Movement Karakter
-using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
+    using UnityEngine;
+    public class PlayerController : MonoBehaviour
+    {
     public float speed = 5.0f;
     public float jump = 9.0f;
     public Camera myCamera;
-
+    
     // Batas pergerakan kamera
     public float minX = 2.77f; // Batas kiri
     public float maxX = 17.11f;  // Batas kanan
