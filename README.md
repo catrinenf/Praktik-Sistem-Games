@@ -41,4 +41,4 @@ Tugas Movement Karakter
         // Update posisi kamera
         myCamera.transform.position = playerPosition;
     }
-}
+    }
